@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: ;
+    font-display:green;
+    
+    line-height: 1.6;
+}
+h1 {
+    color: navy; /* Change font color */
+}
+footer {
+    color: rgb(37, 241, 10); /* Change font color */
+    font-family: "Times New Roman", Times, serif; 
+}
+/* CSS code in style.css */
+
+/* Positioning the profile picture */
+.profile-pic {
+    position: absolute;
+    top: 10px; /* Adjust this value to adjust vertical position */
+    right: 10px; /* Adjust this value to adjust horizontal position */
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 40%; /* Makes the image round */
+    border: 2px solid #18f51f; /* Adds a white border around the image */
+    box-shadow: 0 0 5px rgba(5, 54, 168, 0.3); /* Adds a shadow effect */
+    z-index: 600; /* Ensure it's above other content */
+}
+/* Responsive design using media queries */
+@media (max-width: 500px) {
+    /* Adjust styles for screens smaller than 768px */
+    .profile-pic {
+        width: 50px; /* Decrease width for smaller screens */
+        top: 10px; /* Adjust position for smaller screens */
+        right: 10px; /* Adjust position for smaller screens */
+    }
+}
+
+
+
+header, footer {
+    background-color: #333;
+    color: #1aefe4;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style-type: square ;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
